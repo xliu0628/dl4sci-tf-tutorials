@@ -41,3 +41,7 @@
 - load the saved model
   > new_model = keras.models.load_model('my_model.h5')
   > new_model.summary()
+
+## 4. Convolutional Neutral Networks (CNNs)
+- add dense layer on top of CNNs to output
+  - dense layer requires 1D input --> need to flatten the output of CNNs first
