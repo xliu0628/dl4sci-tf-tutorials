@@ -45,3 +45,9 @@
 ## 4. Convolutional Neutral Networks (CNNs)
 - add dense layer on top of CNNs to output
   - dense layer requires 1D input --> need to flatten the output of CNNs first
+  
+  
+ ## 5. classify structured data
+ - converting strucutred data (eg. tabular data in pandas) to features that can be used to train the model (feature layer is the input of a ML)
+ - the above is done by feature columns
+ When working with a small dataset like this one, we recommend using a decision tree or random forest as a strong baseline
